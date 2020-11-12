@@ -13,3 +13,4 @@ jobs:
           name: Checking environment
           command: env
       - run: docker build -t company/app:$CIRCLE_BRANCH .
+      - run: echo Done
